@@ -1,0 +1,34 @@
+#!/bin/bash
+# kde 4.10
+aptitude install -y libx11-xcb-dev libxcb-composite0-dev libxcb-damage0-dev \
+libxcb-xfixes0-dev libxcb-randr0-dev libxcb-shape0-dev libxcb-sync0-dev \
+libxcb-image0-dev libxcb-render-util0-dev libqjson-dev virtuoso-minimal \
+libavcodec-dev libavformat-dev libavdevice-dev libavutil-dev \
+libswscale-dev libpostproc-dev libtag1-dev  libgstreamer0.10-dev \
+libgstreamer-plugins-base0.10-dev
+
+# kde 4.6
+aptitude install -y graphviz libxml2-utils libopenexr-dev libjasper-dev libenchant-dev \
+libavahi-common-dev libaspell-dev libasound2-dev libldap2-dev libsasl2-dev \
+libsmbclient-dev libxkbfile-dev libxcb1-dev libxklavier-dev libxdamage-dev \
+libxcomposite-dev libbluetooth-dev libusb-dev network-manager-dev \
+libsensors4-dev libnm-util-dev libcfitsio3-dev libnova-dev libeigen2-dev \
+libopenbabel-dev libfacile-ocaml-dev libboost-python-dev libsvn-dev libsvncpp-dev \
+libqt4-dev libqca2-dev libstreamanalyzer-dev libstrigiqtdbusclient-dev \
+libcommoncpp2-dev libidn11 libidn11-dev libpci-dev libxss-dev libxft-dev \
+libpolkit-agent-1-dev libpolkit-backend-1-dev libpolkit-gobject-1-dev git libpoppler-qt4-dev \
+libspectre-dev
+
+# kde 4.5
+aptitude install -y libv4l-dev # for kdenetworks
+aptitude install -y liblcms1-dev # for kdegraphics
+
+# kdelibs dependencies
+aptitude install -y libasound2-dev libaspell-dev \
+libavahi-common-dev libenchant-dev libjasper-dev libopenexr-dev \
+libxml2-utils
+
+# kdebase-workspace-optional
+aptitude install -y libxklavier-dev libxdamage-dev libxcomposite-dev \
+libbluetooth-dev libusb-dev libcaptury-dev network-manager-dev \
+libsmbclient-dev libsensors-dev libpam0g-dev libnm-util-dev

@@ -1,0 +1,11 @@
+#!/bin/bash
+aptitude install -y kdelibs5-dev graphviz libxml2-utils libopenexr-dev libjasper-dev libenchant-dev \
+libavahi-common-dev libaspell-dev libasound2-dev libldap2-dev libsasl2-dev \
+libsmbclient-dev libxkbfile-dev libxcb1-dev libxklavier-dev libxdamage-dev \
+libxcomposite-dev libbluetooth-dev libusb-dev network-manager-dev \
+libsensors4-dev libnm-util-dev libcfitsio3-dev libnova-dev libeigen2-dev \
+libopenbabel-dev libfacile-ocaml-dev libboost-python-dev libsvn-dev libsvncpp-dev \
+libqt4-dev libqca2-dev libstreamanalyzer-dev libstrigiqtdbusclient-dev \
+libcommoncpp2-dev libidn11 libidn11-dev libpci-dev libxss-dev libxft-dev \
+libpolkit-agent-1-dev libpolkit-backend-1-dev libpolkit-gobject-1-dev git libpoppler-qt4-dev libspectre-dev
+

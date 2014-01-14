@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo aptitude install vim-gnome emacs24-lucid rar apt-file \
+most ssh git traceroute astyle cmake cmake-qt-gui vlc \
+pavucontrol nodejs kdevelop \
+gparted python3-pip aptitude wine manpages-dev muon skype opera -y
+
