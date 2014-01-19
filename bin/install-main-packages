@@ -2,6 +2,6 @@
 aptitude install xclip vim-gnome emacs24-lucid rar apt-file \
 most ssh git traceroute astyle cmake cmake-qt-gui vlc \
 pavucontrol ghc ocaml nodejs kdevelop \
-gparted python-pip python3-pip wine \
+gparted python-pip python3-pip wine winetricks \
 manpages-dev muon skype opera -y
 
