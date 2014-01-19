@@ -1,7 +1,6 @@
 #!/bin/bash
-add-apt-repository ppa:webupd8team/sublime-text -y
 add-apt-repository ppa:keks9n/skypetab -y
 add-apt-repository ppa:webupd8team/java -y
 aptitude update
-aptitude install sublime-text skypetab-ng oracle-java7-installer
+aptitude install skypetab-ng oracle-java7-installer
 
