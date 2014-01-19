@@ -2,6 +2,6 @@
 add-apt-repository ppa:keks9n/skypetab -y
 add-apt-repository ppa:webupd8team/java -y
 aptitude update
-aptitude install skypetab-ng oracle-java8-installer oracle-jdk8-installer
-apttude install oracle-java7-installer
+aptitude install -y skypetab-ng oracle-java8-installer oracle-jdk8-installer
+aptitude install -y oracle-java7-installer
 
