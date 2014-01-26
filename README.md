@@ -7,5 +7,6 @@ Basic:
 
 Other:
 * install howdoi
-
+* install profile sync daemon
+* chrome extensions: Youtube Center
 
