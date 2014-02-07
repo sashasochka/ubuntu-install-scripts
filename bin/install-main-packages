@@ -1,5 +1,5 @@
 #!/bin/bash
-aptitude install -y xclip vim-gnome emacs24-lucid rar apt-file \
+aptitude install -y xclip vim-gnome emacs24 rar apt-file \
 most ssh git traceroute astyle cmake cmake-qt-gui vlc \
 pavucontrol ghc ocaml nodejs kdevelop \
 gparted tree nodejs npm python-pip python3-pip wine winetricks \
