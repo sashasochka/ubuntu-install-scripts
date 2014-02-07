@@ -55,9 +55,6 @@ cfortran
 checkinstall
 checkstyle
 cifs-utils
-clang-3.4
-clang-format-3.4
-clang-trunk
 cmake
 cmake-data
 cmake-qt-gui
@@ -608,7 +605,6 @@ vim-gnome
 vim-gui-common
 vim-runtime
 vim-tiny
-virtualbox
 vlc
 vlc-data
 vlc-nox
