@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo gem install travis git-up
+sudo npm install -g gulp grunt-cli protractor karma bower npm jspm
+

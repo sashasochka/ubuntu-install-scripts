@@ -1,7 +1,11 @@
 #!/bin/bash
-aptitude install -y xclip vim-gnome emacs24 rar apt-file \
+apt-get install -y --install-suggests xclip vim-gnome rar apt-file \
 most ssh git traceroute astyle cmake cmake-qt-gui vlc \
 pavucontrol ghc ocaml nodejs kdevelop \
+ppa-purge \
 gparted tree nodejs npm python-pip python3-pip wine winetricks \
-manpages-dev muon skype opera -y
+manpages-dev skype opera \
+lxc cgroup-lite docker \
+clang-3.5 \
+ruby-dev python-dev python3-dev \
 
