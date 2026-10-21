@@ -1,3 +1,0 @@
-#!/bin/bash
-dpkg --get-selections | grep -v deinstall | sed -re 's/^(\S*).*$/\1/g'
-

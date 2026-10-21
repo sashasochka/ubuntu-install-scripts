@@ -1,6 +1,0 @@
-#!/bin/bash
-add-apt-repository ppa:webupd8team/java -y
-aptitude update
-aptitude install -y oracle-java8-installer oracle-jdk8-installer
-aptitude install -y oracle-java7-installer
-
